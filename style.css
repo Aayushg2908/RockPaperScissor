@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.heading{
+    width: 96%;
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+}
+
+.container{
+    height: 350px;
+    width: 70vw;
+    margin: 0 auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container img{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rock:hover{
+    box-shadow: 0px 10px 60px aqua;
+}
+#paper:hover{
+    box-shadow: 0px 10px 60px red;
+}
+#scissor:hover{
+    box-shadow: 0px 10px 60px yellow;
+}
